@@ -1,0 +1,76 @@
+====================================
+Patient and Appointment Management
+
+====================================
+
+Domain
+------
+Healthcare / Patient Scheduling Systems
+
+
+
+Problem Statement
+-----------------
+Hospitals and clinics need reliable systems to manage their patients’ appointments.
+Manual management often causes errors like double-booking patients, overfilled slots, or lack of visibility into schedules.
+
+This project will create a Patient and Appointment Management System that:
+
+Creates patients with unique details (ID, name, age, condition).
+
+Creates appointments (doctor, date, time slot) with capacity limits.
+
+Assigns patients to appointments while ensuring no double-booking.
+
+Provides supervisors with tools to view schedules, track appointment coverage, and generate reports.
+
+Prevents invalid assignments (e.g., assigning the same patient to the same appointment twice, or exceeding capacity).
+
+
+
+Students will learn:
+--------------------
+Object-Oriented Programming (Classes, Objects, Relationships)
+
+Data Structures (dict, list) for storing patients and appointments
+
+Exception Handling with custom exceptions
+
+Functions for validation & reporting
+
+Reports and Summaries (per patient & per appointment)
+
+Modular Code Organization
+
+Menu-driven Programs
+
+
+
+Step-by-Step Workflow for Students:
+----------------------------------
+Patient Class (patient.py)
+Stores ID, name, age, condition.
+Provides readable representation.
+
+Appointment Class (appointment.py)
+Represents an appointment (doctor, date, time slot, capacity).
+Stores assigned patients while respecting capacity.
+AppointmentManager (appointment_manager.py)
+Handles multiple patients and appointments.
+Prevents double-booking and invalid assignments.
+
+Report Module (report.py)
+--------------------------
+Generates patient-wise and appointment-wise reports.
+Custom Exceptions (exceptions.py)
+DoubleBookingError, AppointmentCapacityError, PatientNotFoundError, AppointmentNotFoundError.
+Main Program (main.py)
+Menu-driven system to tie everything together.
+
+Student Breakdown of Tasks:
+
+Student A: Implement Patient + Appointment.
+
+Student B: Implement AppointmentManager + Exceptions.
+
+Student C: Implement Reporting + Main menu.
