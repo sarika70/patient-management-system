@@ -1,10 +1,10 @@
-# 🏥 Patient Management System
+#  Patient Management System
 
-## 📌 Project Description
+##  Project Description
 
 The Patient Management System is a software application designed to manage patient records efficiently. It helps in storing, updating, and retrieving patient information in a structured and organized way.
 
-## 🚀 Features
+##  Features
 
 * Add new patient records
 * Update patient details
@@ -13,13 +13,13 @@ The Patient Management System is a software application designed to manage patie
 * Database integration
 * User-friendly interface
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Language: Python
 * Database: SQL / SQLite
 * Tools: VS Code, Git, GitHub
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 patient-management-system/
@@ -29,7 +29,7 @@ patient-management-system/
 │── README.md
 ```
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository:
 
@@ -49,12 +49,12 @@ cd patient-management-system
 python main.py
 ```
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 * Add GUI interface
 * Cloud database support
 * User authentication system
 
-## 👩‍💻 Author
+##  Author
 
 Sarika – Aspiring Software Developer
